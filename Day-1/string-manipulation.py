@@ -9,3 +9,17 @@ a = "Hello "
 b = "World!"
 
 print(a + b)
+
+# F Strings 
+
+#  So normally when you have to print something and you wrote some text and then added a plus sign and then convert the dattatype to string if it was a integer and then it would get printed
+# So to solve this problemwe can use f strings instead like this
+
+score  = 3.56
+# the old way of printing
+
+print("Your score is " + str(score))
+
+# the new way of printing
+
+print(f"Your score is {score}")
