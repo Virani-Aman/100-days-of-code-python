@@ -29,7 +29,7 @@ print(round(2.666666, 2))
 
 print(7 // 2)
 
-# and you will notic that this will return the number in integer data type
+# and you will notice that this will return the number in integer data type
 
 # Let's move on to shortcuts for arithmetic operations
 
