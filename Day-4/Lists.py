@@ -40,3 +40,19 @@ print(things_to_take)
 
 things_to_take.remove("DO EPIC SHIT book")
 print(things_to_take)
+
+# Now theres a thing called nested lists 
+# they can be used to lets say you are listing the members of a club but you want to give free drinks to women so while listing you make two different list but you also want them to be under the members_of_club variable 
+#to do that we use nested list like this -
+
+members_of_club_men = ["Mike", "Harvey", "Louis", "Robert", "Alex", "Aman"]
+members_of_club_women = ["Rachel", "Donna", "Katrina", "Samantha"]
+
+members_of_club = [members_of_club_men, members_of_club_women]
+
+print(members_of_club)
+
+# now lets say you wanted to know the first member of the club who is a man 
+#we can just use the print command like this for it -
+print(members_of_club[0][0])
+# first 0 for the list 1 as python takes 0 as 1 and the other 0 for the first name again.
